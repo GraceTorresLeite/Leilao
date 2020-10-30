@@ -12,15 +12,15 @@
 		<property name="url" value="${jdbc.url}"></property>
 	</bean>
 	 
-	<bean id="leilaoDao" class="org.example.junit.dao.LeilaoDao">
+	<bean id="leilaoDao" class="junit.dao.LeilaoDao">
 		<property name="dataSource" ref="ds"></property>
 	</bean>
 	
-	<bean id="lanceDao" class="org.example.junit.dao.LanceDao">
+	<bean id="lanceDao" class="junit.dao.LanceDao">
 		<property name="dataSource" ref="ds"></property>
 	</bean>
 	
-	<bean id="usuarioDao" class="org.example.junit.dao.UsuarioDao">
+	<bean id="usuarioDao" class="junit.dao.UsuarioDao">
 		<property name="dataSource" ref="ds"></property>
 	</bean>
 	
